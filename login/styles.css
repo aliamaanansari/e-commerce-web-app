@@ -56,13 +56,13 @@
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .checkbox {
   height: 1rem;
   width: 1rem;
 }
 .checkbox-text {
-  margin-left: 1rem;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -70,7 +70,6 @@
   color: #000000;
 }
 .checkbox-forgot-text {
-  margin-left: 2.063rem;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
