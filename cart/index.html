@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://deploy-preview-8--keen-meninsky-a05bc6.netlify.app/home.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://keen-meninsky-a05bc6.netlify.app/home.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://deploy-preview-8--keen-meninsky-a05bc6.netlify.app/styles/utility.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>E-commerce</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="/" class="navbar-title">Neo Cart</a>
+      <div class="navbar-search-input-container">
+        <div class="input-lefticon">
+          <img src="./assets/images/search-icon.svg" alt="" />
+        </div>
+        <input class="navbar-search-input" type="text" placeholder="Search" />
+      </div>
+      <div class="navbar-right-options">
+        <a href="/login">
+          <button>Login</button>
+        </a>
+        <div>
+          <a href="/wishlist">
+            <img height="24px" src="../assets/images/Wishlist.svg" alt="" />
+          </a>
+        </div>
+        <div>
+          <a href="/cart" class="flex-row items-center">
+            <img height="24px" src="../assets/images/Cart-Icon.svg" alt="" />
+            <label> Cart </label>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="flex-row">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="/assets/images/product-img.png" alt="no connection" />
+          </div>
+          <div class="product-description">
+            <div class="product-name">Men Premium Jacket</div>
+
+            <div class="product-price">
+              $2000 <span class="old-price">$3999</span>
+            </div>
+            <div class="offer-price">50%</div>
+            <div class="flex-row">
+              <div class="quantity-label">Quantity</div>
+
+              <button class="quantity-btn">-</button>
+              <input class="quantity-input" type="text" value="1" />
+              <button class="quantity-btn">+</button>
+            </div>
+            <button class="cart-remove-btn">Remove From Cart</button>
+            <button class="cart-wishlist-btn">Move To Wishlist</button>
+          </div>
+        </div>
+        <div class="checkout-details">
+          <div class="price-details">Price Details</div>
+          <div class="price-items">Price(2 items) <span>$4999</span></div>
+          <div class="discount">Discount <span>-$1999</span></div>
+          <div class="delivery">Discount <span>$499</span></div>
+          <div class="total-amount">Total Amount <span>$499</span></div>
+          <div class="offer-alert">You will save $1999 on this order</div>
+          <button class="place-order-btn">PLace Order</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/js/app.js"></script>
+</html>
