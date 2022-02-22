@@ -1,0 +1,110 @@
+.body {
+  background: #f7f7f7;
+}
+.login-container {
+  position: absolute;
+  width: 525px;
+  height: 480px;
+  left: 698px;
+  top: 260px;
+  background: #ffffff;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.login-title {
+  display: flex;
+  margin: 2.5rem;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+.email-address {
+  margin-left: 4.813rem;
+  margin-top: 2.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #282828;
+}
+.email-input {
+  padding: 0.382rem 12.531rem 0.567rem 1.084rem;
+  border-radius: 0.313rem;
+  margin-left: 4.813rem;
+  margin-left: 4.813rem;
+
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+}
+.password {
+  margin-left: 4.813rem;
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #282828;
+}
+.password-input {
+  padding: 0.382rem 12.531rem 0.567rem 1.084rem;
+  border-radius: 0.313rem;
+  margin-left: 4.813rem;
+  margin-left: 4.813rem;
+  font-style: normal;
+  font-weight: normal;
+  color: #afafaf;
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+}
+.checkbox-container {
+  margin-top: 2rem;
+  margin-left: 4.8rem;
+  display: flex;
+  flex-direction: row;
+}
+.checkbox {
+  height: 1rem;
+  width: 1rem;
+}
+.checkbox-text {
+  margin-left: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.checkbox-forgot-text {
+  margin-left: 2.063rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3b82f6;
+}
+.create-btn {
+  margin-top: 2.06rem;
+  margin-left: 4.688rem;
+  background: #3b82f6;
+  padding: 0.5rem 6.438rem 0.5rem 6.438rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  color: #ffffff;
+}
+.acc {
+  margin-top: 2rem;
+  margin-left: 10.313rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.aroww {
+  font-size: 1.5rem;
+}

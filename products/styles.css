@@ -1,0 +1,133 @@
+.products-container {
+  padding: 2.5rem 5rem;
+  background: #f7f7f7;
+  flex: 1;
+  height: calc(100vh - 10rem);
+  overflow-y: auto;
+}
+.main-container {
+  display: flex;
+}
+.product-sidebar {
+  width: 280px;
+  height: calc(100vh - 10rem);
+  overflow-y: auto;
+  background: #fff;
+  padding: 2.5rem;
+}
+
+.sidebar-title {
+  display: flex;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  justify-content: space-between;
+}
+.sidebar-title .clear-option {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-decoration-line: underline;
+}
+
+.sidebar-price-filter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.sidebar-price-filter-range {
+  width: 100%;
+}
+.sidebar-category {
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+.sidebar-category h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0.8rem;
+  margin-top: 2.5rem;
+}
+
+@media screen and (min-width: 1800px) {
+  .product-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 0.8rem;
+    margin-top: 2.5rem;
+  }
+}
+
+.product-top-helptext-bold {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.product-top-sub-helptext {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+}
+.product-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  height: 23.4rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1.5rem 2.5rem 2.25rem 1.5rem;
+  background: rgba(196, 196, 196, 0.5);
+}
+.product-image img {
+  margin: auto 0;
+}
+.product-description {
+  display: flex;
+  flex-direction: column;
+}
+.product-name {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.product-price {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.cart-btn {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background: #3b82f6;
+}

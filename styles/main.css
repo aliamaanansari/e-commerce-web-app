@@ -1,4 +1,83 @@
 body {
   margin: 0;
+  background: #f7f7f7;
   padding: 0;
+}
+.container {
+  padding: 4rem 8.3%;
+}
+.home-top-grid {
+  justify-content: space-between;
+  gap: 1rem;
+}
+.home-top-grid-item {
+  height: 8.75rem;
+  width: 100%;
+  background-image: url('/assets/images/blazer.png');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.center-overlay {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 0.313rem 0;
+  text-align: center;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.home-middle-section {
+  background: #c4c4c4;
+  width: 100%;
+  margin: 4rem 0;
+  height: 43.188rem;
+}
+
+.bottom-section {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.bottom-section-card {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  background: rgba(196, 196, 196, 0.7);
+}
+.bottom-section-card-img {
+  height: 14.813rem;
+  width: 30%;
+  min-width: 200px;
+  background: #fff;
+}
+.bottom-section-card-text {
+  margin-left: 4rem;
+  justify-content: space-between;
+}
+
+.bottom-section-card-text-subtext {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+.bottom-section-card-text-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: #000000;
+}
+.bottom-section-card-text-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
 }
