@@ -5,11 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://deploy-preview-8--keen-meninsky-a05bc6.netlify.app/home.css"
+    />
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://keen-meninsky-a05bc6.netlify.app/home.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://deploy-preview-8--keen-meninsky-a05bc6.netlify.app/styles/utility.css"
+    />
     <title>E-commerce</title>
   </head>
   <body>
-    <h1>E-commerce</h1>
+    <nav class="navbar">
+      <a href="/" class="navbar-title">Neo Cart</a>
+      <div class="navbar-search-input-container">
+        <div class="input-lefticon">
+          <img src="./assets/images/search-icon.svg" alt="" />
+        </div>
+        <input class="navbar-search-input" type="text" placeholder="Search" />
+      </div>
+      <div class="navbar-right-options">
+        <a href="/login">
+          <button>Login</button>
+        </a>
+        <div>
+          <a href="/wishlist">
+            <img height="24px" src="./assets/images/Wishlist.svg" alt="" />
+          </a>
+        </div>
+        <div>
+          <a href="/cart" class="flex-row items-center">
+            <img height="24px" src="./assets/images/Cart-Icon.svg" alt="" />
+            <label> Cart </label>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="home-top-grid flex-row">
+        <a class="home-top-grid-item" href="/products">
+          <div class="center-overlay">MEN</div>
+        </a>
+        <a class="home-top-grid-item" href="/products">
+          <div class="center-overlay">MEN</div>
+        </a>
+        <a class="home-top-grid-item" href="/products">
+          <div class="center-overlay">MEN</div>
+        </a>
+        <a class="home-top-grid-item" href="/products">
+          <div class="center-overlay">MEN</div>
+        </a>
+      </div>
+      <div class="home-middle-section">
+        <!-- middle section of home page -->
+      </div>
+      <div class="flex-row bottom-section">
+        <div class="bottom-section-card">
+          <div class="bottom-section-card-img"></div>
+          <div class="flex-col bottom-section-card-text">
+            <div class="bottom-section-card-text-subtext">NEW ARRIVALS</div>
+            <div>
+              <div class="bottom-section-card-text-title">
+                Summer Collection
+              </div>
+              <div>
+                Check out our best winter collection to stay warm in style this
+                season
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-section-card">
+          <div class="bottom-section-card-img"></div>
+          <div class="flex-col bottom-section-card-text">
+            <div class="bottom-section-card-text-subtext">NEW ARRIVALS</div>
+            <div>
+              <div class="bottom-section-card-text-title">
+                Summer Collection
+              </div>
+              <div>
+                Check out our best winter collection to stay warm in style this
+                season
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <script src="/js/app.js"></script>
 </html>
